@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cancun
+  labels:
+    environment-id: env_cce46e3a-881d-459f-af38-a933a0e39511
+    project-id: project_47e36bd8-be79-41a7-bc0a-8034da4b53a3
+    project-name: ohios
+    organization-id: org_01b50229-db34-43d4-8f3e-d1aeb683d900
