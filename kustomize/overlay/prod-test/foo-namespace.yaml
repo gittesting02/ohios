@@ -3,7 +3,7 @@ kind: Namespace
 metadata:
   name: foo
   labels:
-    environment-id: env_f10538b2-3c4f-4d06-9364-56f3a0a35a74
+    environment-id: env_2eddc5c6-9542-45d9-bae8-121b457b0b05
     project-id: project_47e36bd8-be79-41a7-bc0a-8034da4b53a3
     project-name: ohios
     environment-name: prod-test
