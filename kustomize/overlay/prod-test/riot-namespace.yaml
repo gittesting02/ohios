@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: riot
+  labels:
+    environment-id: env_2eddc5c6-9542-45d9-bae8-121b457b0b05
+    project-id: project_47e36bd8-be79-41a7-bc0a-8034da4b53a3
+    project-name: ohios
+    environment-name: prod-test
+    organization-id: org_01b50229-db34-43d4-8f3e-d1aeb683d900
