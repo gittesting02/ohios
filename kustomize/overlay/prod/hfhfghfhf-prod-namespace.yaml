@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: hfhfghfhf-prod
+  labels:
+    environment-id: env_b6ab3ea1-ee84-437a-9e94-af348dbe20ee
+    project-id: project_6a9923a9-84da-448a-b389-44bda4c60339
+    project-name: hfhfghfhf
+    environment-name: prod
+    organization-id: org_99bfadb5-996a-47d5-a5fc-442c14a28627
