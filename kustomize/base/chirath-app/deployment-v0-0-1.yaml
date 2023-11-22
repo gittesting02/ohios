@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chirath-app
+  labels:
+    app: chirath-app
+    applicationId: app_852f4770-cbdf-4897-be4b-a084d448e750
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: chirath-app
+  template:
+    metadata:
+      labels:
+        app: chirath-app

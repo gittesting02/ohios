@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations: {}
+  labels:
+    app: chirath-app
+    applicationId: app_852f4770-cbdf-4897-be4b-a084d448e750
+    version: v0.0.1
+  name: chirath-app
+spec:
+  selector:
+    app: chirath-app
