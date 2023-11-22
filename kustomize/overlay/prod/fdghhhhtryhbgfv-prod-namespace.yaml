@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: fdghhhhtryhbgfv-prod
+  labels:
+    environment-id: env_86edc3b5-c261-4e41-a6da-934dd7327718
+    project-id: project_e1f18706-a3dc-4898-9a85-16e7399dd8b9
+    project-name: new-testing-project-asdewqe
+    environment-name: prod
+    organization-id: org_a09b6925-5b61-46d2-8d78-e1a1079bde03
