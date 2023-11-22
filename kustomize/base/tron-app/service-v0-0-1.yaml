@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations: {}
+  labels:
+    app: tron-app
+    applicationId: app_49928b49-0bce-4450-991a-4ed05b1d8325
+    version: v0.0.1
+  name: tron-app
+spec:
+  selector:
+    app: tron-app

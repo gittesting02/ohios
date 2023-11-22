@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tron-app
+  labels:
+    app: tron-app
+    applicationId: app_49928b49-0bce-4450-991a-4ed05b1d8325
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: tron-app
+  template:
+    metadata:
+      labels:
+        app: tron-app
