@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations: {}
+  labels:
+    app: sdfjgsdfsdffdsdxfsdf
+    applicationId: app_22e024b1-25bd-4c7f-bdf6-b36d19f1a5a0
+    version: v0.0.1
+  name: sdfjgsdfsdffdsdxfsdf
+spec:
+  selector:
+    app: sdfjgsdfsdffdsdxfsdf
