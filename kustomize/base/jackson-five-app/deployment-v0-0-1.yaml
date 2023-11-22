@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jackson-five-app
+  labels:
+    app: jackson-five-app
+    applicationId: app_dac2441b-c240-4e3f-a464-b96324104fd6
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: jackson-five-app
+  template:
+    metadata:
+      labels:
+        app: jackson-five-app
