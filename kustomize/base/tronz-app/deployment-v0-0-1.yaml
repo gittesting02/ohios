@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tronz-app
+  labels:
+    app: tronz-app
+    applicationId: app_6f593c8e-eda1-494f-8b5b-00fdd2e8dea3
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: tronz-app
+  template:
+    metadata:
+      labels:
+        app: tronz-app

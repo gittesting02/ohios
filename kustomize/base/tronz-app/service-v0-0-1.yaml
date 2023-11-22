@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations: {}
+  labels:
+    app: tronz-app
+    applicationId: app_6f593c8e-eda1-494f-8b5b-00fdd2e8dea3
+    version: v0.0.1
+  name: tronz-app
+spec:
+  selector:
+    app: tronz-app
