@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations: {}
+  labels:
+    app: test-jangos-sdad-app
+    applicationId: app_7063cddb-a868-4897-8951-cb8ddc3b1157
+    version: v0.0.1
+  name: test-jangos-sdad-app
+spec:
+  selector:
+    app: test-jangos-sdad-app
