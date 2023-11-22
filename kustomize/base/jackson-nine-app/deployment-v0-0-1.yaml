@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jackson-nine-app
+  labels:
+    app: jackson-nine-app
+    applicationId: app_91d9cf40-ecde-4488-8518-122a172c03d4
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: jackson-nine-app
+  template:
+    metadata:
+      labels:
+        app: jackson-nine-app

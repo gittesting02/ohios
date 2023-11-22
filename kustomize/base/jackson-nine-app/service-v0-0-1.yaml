@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations: {}
+  labels:
+    app: jackson-nine-app
+    applicationId: app_91d9cf40-ecde-4488-8518-122a172c03d4
+    version: v0.0.1
+  name: jackson-nine-app
+spec:
+  selector:
+    app: jackson-nine-app
