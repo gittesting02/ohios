@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations: {}
+  labels:
+    app: jackson-app
+    applicationId: app_02b6b9bd-fdbc-42df-948b-5189646ab743
+    version: v0.0.1
+  name: jackson-app
+spec:
+  selector:
+    app: jackson-app

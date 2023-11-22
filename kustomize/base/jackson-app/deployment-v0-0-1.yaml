@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jackson-app
+  labels:
+    app: jackson-app
+    applicationId: app_02b6b9bd-fdbc-42df-948b-5189646ab743
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: jackson-app
+  template:
+    metadata:
+      labels:
+        app: jackson-app
