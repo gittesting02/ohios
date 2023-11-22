@@ -1,0 +1,23 @@
+name: prod-workflow (Skyu Generated)
+'on':
+  push:
+    branches:
+      - main
+  workflow_dispatch: {}
+env:
+  ENCODED_PIPELINE_SECRET: >-
+    ${{secrets.OHIOS_ENV_86EDC3B5C2614E41A6DA934DD7327718_APP_6F593C8EEDA1494F8B5B00FDD2E8DEA3_PRODCICD}}
+jobs:
+  build:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start
+        run: echo " Starting GitHub Action!"
+      - name: 'Run :: Checkout repository'
+        uses: actions/checkout@v2
+      - name: 'Run :: Decoding Secrets'
+        run: >-
+          echo "${{ env.ENCODED_PIPELINE_SECRET }}" | base64 --decode | jq -r
+          'to_entries[] | "\(.key)=\(.value)"' | while read line; do echo
+          "$line" >> $GITHUB_ENV; echo "::add-mask::${line#*=}"; done
