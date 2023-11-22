@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jackson-thirtenn-app
+  labels:
+    app: jackson-thirtenn-app
+    applicationId: app_8fe77e2f-e538-4ca5-907d-29b633967855
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: jackson-thirtenn-app
+  template:
+    metadata:
+      labels:
+        app: jackson-thirtenn-app
