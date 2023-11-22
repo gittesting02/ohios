@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations: {}
+  labels:
+    app: tronsadd-app
+    applicationId: app_e62ea0eb-9b96-4d94-88e0-7546524394d0
+    version: v0.0.1
+  name: tronsadd-app
+spec:
+  selector:
+    app: tronsadd-app

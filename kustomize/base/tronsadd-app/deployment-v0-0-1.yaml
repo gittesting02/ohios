@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tronsadd-app
+  labels:
+    app: tronsadd-app
+    applicationId: app_e62ea0eb-9b96-4d94-88e0-7546524394d0
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: tronsadd-app
+  template:
+    metadata:
+      labels:
+        app: tronsadd-app
