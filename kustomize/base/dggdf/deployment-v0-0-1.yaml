@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dggdf
+  labels:
+    app: dggdf
+    applicationId: app_1133cb02-8a76-40ee-bd31-f8ea52accd7f
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: dggdf
+  template:
+    metadata:
+      labels:
+        app: dggdf
