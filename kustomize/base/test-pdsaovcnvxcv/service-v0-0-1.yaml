@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations: {}
+  labels:
+    app: test-pdsaovcnvxcv
+    applicationId: app_5db4cf31-e520-43c3-a556-409ca73b347c
+    version: v0.0.1
+  name: test-pdsaovcnvxcv
+spec:
+  selector:
+    app: test-pdsaovcnvxcv
