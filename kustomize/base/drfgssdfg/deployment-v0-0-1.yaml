@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: drfgssdfg
+  labels:
+    app: drfgssdfg
+    applicationId: app_0425bce9-487d-41bc-8355-5f4050409c69
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: drfgssdfg
+  template:
+    metadata:
+      labels:
+        app: drfgssdfg
