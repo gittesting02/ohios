@@ -1,0 +1,46 @@
+apiVersion: transformers.customplugin.co/v1
+kind: SkyUAppTransformer
+metadata:
+  name: skyu-deployment
+  annotations:
+    config.kubernetes.io/function: |
+      exec:
+        path: skyu-app-transformer
+spec:
+  applicationContainers:
+    - imageTag: latest
+      cpuRequestMili: 100
+      cpuLimitMili: 150
+      memoryRequestMb: 350
+      memoryLimitMb: 450
+      args: []
+      command: []
+      configMounts: []
+      applicationPorts:
+        - port: 123
+          targetPort: 123
+          protocol: TCP
+      healthChecks: []
+      name: new-application-test--main
+      imagePullPolicy: Always
+  minReplicas: 1
+  maxReplicas: 1
+  terminationGracePeriodSeconds: 60
+  nodeSelector: {}
+  suspend: false
+  ttlSecondsAfterFinished: 0
+  labels:
+    app: 'new Application test '
+    version: v0.0.1
+    applicationId: app_bf87cf6b-dee7-4d7b-b6da-52ec5b39949a
+    projectId: project_e1f18706-a3dc-4898-9a85-16e7399dd8b9
+    organizationId: org_a09b6925-5b61-46d2-8d78-e1a1079bde03
+    environmentId: env_44339a25-1514-46f7-9965-f525bf27f982
+    environmentName: dev
+  horizontalAutoScalingRules: []
+  volumes: []
+  type: Deployment
+  name: 'new Application test '
+  cronTab: ''
+  serviceType: ClusterIP
+  namespace: fdghhhhtryhbgfv-dev

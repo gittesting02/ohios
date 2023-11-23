@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: 'new application test '
+  labels:
+    app: 'new application test '
+    applicationId: app_bf87cf6b-dee7-4d7b-b6da-52ec5b39949a
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: 'new application test '
+  template:
+    metadata:
+      labels:
+        app: 'new application test '
