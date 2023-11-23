@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bnfvncvhbfgdfg
+  labels:
+    app: bnfvncvhbfgdfg
+    applicationId: app_493f05bd-bcd8-4f13-847f-68f0bf94b710
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: bnfvncvhbfgdfg
+  template:
+    metadata:
+      labels:
+        app: bnfvncvhbfgdfg
