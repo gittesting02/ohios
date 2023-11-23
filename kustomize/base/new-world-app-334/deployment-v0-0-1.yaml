@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: new-world-app-334
+  labels:
+    app: new-world-app-334
+    applicationId: app_fea4d641-69b8-4dfd-84e2-e4ff7baffaea
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: new-world-app-334
+  template:
+    metadata:
+      labels:
+        app: new-world-app-334
