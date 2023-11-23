@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations: {}
+  labels:
+    app: ' new application test 434    '
+    applicationId: app_06b1bd04-4eb6-4031-94a5-0f201c28d543
+    version: v0.0.1
+  name: ' new application test 434    '
+spec:
+  selector:
+    app: ' new application test 434    '
