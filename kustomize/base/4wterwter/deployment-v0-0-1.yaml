@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: 4wterwter
+  labels:
+    app: 4wterwter
+    applicationId: app_af10f811-02d4-4293-bbde-a2030169e687
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: 4wterwter
+  template:
+    metadata:
+      labels:
+        app: 4wterwter
