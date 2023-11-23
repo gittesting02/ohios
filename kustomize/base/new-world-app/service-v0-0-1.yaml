@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations: {}
+  labels:
+    app: new-world-app
+    applicationId: app_80a4a85a-a083-4356-afe8-12a52b42babd
+    version: v0.0.1
+  name: new-world-app
+spec:
+  selector:
+    app: new-world-app
