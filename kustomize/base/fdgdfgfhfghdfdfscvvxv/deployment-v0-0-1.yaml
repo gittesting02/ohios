@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fdgdfgfhfghdfdfscvvxv
+  labels:
+    app: fdgdfgfhfghdfdfscvvxv
+    applicationId: app_0524516d-3dee-4384-9c6d-40240700b1bf
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: fdgdfgfhfghdfdfscvvxv
+  template:
+    metadata:
+      labels:
+        app: fdgdfgfhfghdfdfscvvxv
