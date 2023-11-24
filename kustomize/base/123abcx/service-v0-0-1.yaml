@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations: {}
+  labels:
+    app: 123abcx
+    applicationId: app_a6c946e3-0c3f-41f7-80ce-207a6a5a4561
+    version: v0.0.1
+  name: 123abcx
+spec:
+  selector:
+    app: 123abcx

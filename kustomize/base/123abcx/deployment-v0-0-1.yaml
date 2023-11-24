@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: 123abcx
+  labels:
+    app: 123abcx
+    applicationId: app_a6c946e3-0c3f-41f7-80ce-207a6a5a4561
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: 123abcx
+  template:
+    metadata:
+      labels:
+        app: 123abcx
