@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: 123abcx4w3
+  labels:
+    app: 123abcx4w3
+    applicationId: app_4753359c-c8a3-44d6-979d-78b52fa4f32e
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: 123abcx4w3
+  template:
+    metadata:
+      labels:
+        app: 123abcx4w3
