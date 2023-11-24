@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: 12sad3abcx4w3
+  labels:
+    app: 12sad3abcx4w3
+    applicationId: app_b15720a5-0c8c-4d18-87e9-2aefddfc938c
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: 12sad3abcx4w3
+  template:
+    metadata:
+      labels:
+        app: 12sad3abcx4w3
