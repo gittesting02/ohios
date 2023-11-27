@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations: {}
+  labels:
+    app: dscxvftyhbvhn
+    applicationId: app_307715aa-9f1b-4ce6-aa3a-2bfd2e759d37
+    version: v0.0.1
+  name: dscxvftyhbvhn
+spec:
+  selector:
+    app: dscxvftyhbvhn

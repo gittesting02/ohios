@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dscxvftyhbvhn
+  labels:
+    app: dscxvftyhbvhn
+    applicationId: app_307715aa-9f1b-4ce6-aa3a-2bfd2e759d37
+    version: v0.0.1
+spec:
+  selector:
+    matchLabels:
+      app: dscxvftyhbvhn
+  template:
+    metadata:
+      labels:
+        app: dscxvftyhbvhn
