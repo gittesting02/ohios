@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: test-project-12-prod
+  labels:
+    environmentId: env_982be7b1-28bb-413e-b9f4-b2818a2c2f65
+    projectId: project_6b0e6892-852c-4809-9802-decb7728e31a
+    projectName: test-project-12
+    environmentName: prod
+    organizationId: org_12ab5a69-48a2-42d7-ad36-d59a2bca4805
